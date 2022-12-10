@@ -77,7 +77,4 @@ workflows:
       - deploy:
           requires:
             - hold
-           - run:
-          name: Deploy App
-          command: |
-            npm run frontend:deploy 
+          
